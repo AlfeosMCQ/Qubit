@@ -646,7 +646,7 @@ body {
     }
 
     .header {
-        background-image: url("../img/bg_img.svg");
+        background-image: url("/img/bg_img.svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -706,6 +706,12 @@ body {
     }
 }
 
+@media (max-width: 1161px) {
+    .commerce_content {
+        min-height: 807px;
+    }
+}
+
 @media (max-width: 1110px) {
     .nav_list {
         column-gap: 15px;
@@ -741,7 +747,7 @@ body {
     }
 
     .commerce_content {
-        min-height: 767px;
+        min-height: 807px;
     }
 
     .can_do_content {
@@ -933,7 +939,7 @@ body {
 
 @media (max-width: 401px) {
     .commerce_content {
-        min-height: 1080px;
+        min-height: 1105px;
     }
 }
 
