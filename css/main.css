@@ -646,7 +646,7 @@ body {
     }
 
     .header {
-        background-image: url("/img/bg_img.svg");
+        background-image: url("../img/bg_img.svg");
         background-repeat: no-repeat;
         background-size: cover;
     }
