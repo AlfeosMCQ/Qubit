@@ -864,6 +864,9 @@ body {
         min-height: 1380px;
     }
 
+    .commerce_content {
+        min-height: 1057px;
+    }
 }
 
 
