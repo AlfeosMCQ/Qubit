@@ -23,9 +23,20 @@ $('.slider_btn_prev').click(function() {
     owl.trigger('prev.owl.carousel', [300]);
 })
 
+$('.slider_btn_p').click(function() {
+    owl.trigger('prev.owl.carousel', [300]);
+})
+
 $('.slider_btn_next').click(function() {
     owl.trigger('next.owl.carousel');
 })
+
+$('.slider_btn_n').click(function() {
+    owl.trigger('prev.owl.carousel', [300]);
+})
+
+
+
 
 
 //nav icon
