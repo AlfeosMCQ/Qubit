@@ -32,9 +32,8 @@ $('.slider_btn_next').click(function() {
 })
 
 $('.slider_btn_n').click(function() {
-    owl.trigger('prev.owl.carousel', [300]);
+    owl.trigger('next.owl.carousel');
 })
-
 
 
 
